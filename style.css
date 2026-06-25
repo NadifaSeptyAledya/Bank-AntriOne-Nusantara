@@ -1,0 +1,273 @@
+/* =========================
+   FONT & BACKGROUND
+========================= */
+
+body{
+    font-family:'Poppins', sans-serif;
+    color:#333;
+
+    background-image:
+    linear-gradient(
+        rgba(245,249,255,0.82),
+        rgba(245,249,255,0.82)
+    ),
+    url('image/Background halaman utama.png');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar{
+    border-radius:0 0 20px 20px;
+}
+
+.navbar-brand{
+    font-size:1.4rem;
+}
+
+.nav-link{
+    font-weight:500;
+    margin:0 8px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#0d6efd;
+}
+
+
+
+
+
+/* BUTTON LOGIN */
+
+.btn-login{
+    background:#0d6efd;
+    color:white;
+    border-radius:12px;
+    padding:10px 20px;
+    border:none;
+    transition:.3s;
+}
+
+.btn-login:hover{
+    background:#084298;
+    color:white;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+}
+
+.hero-title{
+    font-size:3rem;
+    font-weight:700;
+    color:#0d6efd;
+}
+
+.hero-text{
+    font-size:1rem;
+    color:#555;
+    margin:20px 0;
+}
+
+/* =========================
+   CARD NOMOR
+========================= */
+
+.queue-card{
+    background:white;
+    padding:35px;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.badge-title{
+    color:#666;
+    font-weight:600;
+}
+
+.queue-number{
+    font-size:4rem;
+    font-weight:700;
+    color:#0d6efd;
+    margin:15px 0;
+}
+
+/* =========================
+   BADGE TELLER
+========================= */
+
+.teller-badge{
+    background:#FFC107;
+    color:#000;
+    width:90px;
+    height:45px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:15px;
+    font-weight:600;
+    border-radius:10px;
+}
+
+/* =========================
+   TABLE ANTRIAN
+========================= */
+
+.table-card{
+    background:white;
+    border-radius:25px;
+    padding:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.table th{
+    color:#0d6efd;
+}
+
+/* =========================
+   SERVICE CARD
+========================= */
+
+.service-card{
+    background:white;
+    padding:30px;
+    border-radius:25px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.service-card:hover{
+    transform:translateY(-6px);
+}
+
+.service-card h2{
+    color:#0d6efd;
+    font-weight:600;
+}
+
+/* Tombol Teller & CS sama */
+
+.service-card .btn{
+    border-radius:12px;
+    padding:10px 25px;
+}
+
+/* =========================
+   STATISTIK
+========================= */
+
+.stats-card{
+    background:white;
+    border-radius:25px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.stats-card:hover{
+    transform:scale(1.03);
+}
+
+.stats-card h1{
+    color:#0d6efd;
+    font-weight:700;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer{
+    background:#0B4EA2;
+    color:white;
+    padding:60px 0 20px;
+    margin-top:50px;
+}
+
+.footer-logo{
+    font-weight:700;
+    font-size:2rem;
+    margin-bottom:15px;
+}
+
+.footer-desc{
+    color:#d7e6ff;
+    line-height:1.9;
+    max-width:330px;
+}
+
+.footer-title{
+    font-weight:600;
+    margin-bottom:20px;
+    text-transform:uppercase;
+    letter-spacing:.5px;
+}
+
+.footer-link{
+    list-style:none;
+    padding:0;
+}
+
+.footer-link li{
+    margin-bottom:12px;
+}
+
+.footer-link a{
+    color:#d7e6ff;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-link a:hover{
+    color:white;
+    padding-left:6px;
+}
+
+.footer-line{
+    border-color:rgba(255,255,255,.15);
+    margin:35px 0 20px;
+}
+
+.footer-bottom{
+    text-align:center;
+    color:#c7dcff;
+}
+
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:768px){
+
+    .hero{
+        text-align:center;
+    }
+
+    .hero-title{
+        font-size:2rem;
+    }
+
+    .queue-number{
+        font-size:3rem;
+    }
+
+}
